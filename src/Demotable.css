@@ -1,0 +1,13 @@
+.txtf{
+    box-shadow: 4px 4px;
+    /* box-shadow: 0px 0px 10px 0px; */
+ 
+}
+ 
+.txtf:hover{
+    /* box-shadow: 4px 4px; */
+    transform: scale(1.04,1.2);
+    transition-property: transform;
+    transition-duration: 0.05s;
+    transition-timing-function: linear;
+}
