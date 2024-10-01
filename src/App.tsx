@@ -146,8 +146,7 @@ function App() {
                 liveProvider={liveProvider(wsClient)}
                 notificationProvider={notificationProvider}
                 routerProvider={routerBindings}
-                authProvider={authProvider}
-                resources={resources}
+                 resources={resources}
                 //   {
                 //     name: "Dashboards",
                 //     list: "/",
@@ -221,7 +220,7 @@ function App() {
                       element={<Home />}
                       // {<NavigateToResource resource="blog_posts" />}
                     />
-                    <Route path="/blog-posts">
+                    <Route path="/blog-posts" >
                       <Route index element={<BlogPostList />} />
                       <Route path="create" element={<BlogPostCreate />} />
                       <Route path="edit/:id" element={<BlogPostEdit />} />

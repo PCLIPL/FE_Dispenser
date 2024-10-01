@@ -1708,6 +1708,7 @@ list:'/setproductrate',
 {
     name: 'updatevehicledocs',
     list: '/updatevehicledocs',
+    
     meta: {
         parent: 'vehiclemanagement',
         label: 'Update Vehicle Documents',

@@ -1,71 +1,89 @@
 * {
-    font-family:Arial, Helvetica, sans-serif !important;
-  }
-  
-  a {
-    text-decoration: none !important;
-  }
-  
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+ 
+a {
+  text-decoration: none !important;
+}
+ 
+.my_profile-bg {
+  width: 340px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+ 
+.my_profile_user-img {
+  border-radius: 100%;
+  margin-left: -64px;
+}
+ 
+.property_details-img {
+  width: 100%;
+}
+ 
+@media screen and (max-width: 900px) {
   .my_profile-bg {
-    width: 340px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    width: 100%;
+    border-radius: 15px;
   }
-  
+ 
   .my_profile_user-img {
-    border-radius: 100%;
-    margin-left: -64px;
+    margin-left: 0px;
+    margin-top: -64px;
   }
-  
+ 
   .property_details-img {
     width: 100%;
+    height: auto;
   }
-  
-  @media screen and (max-width: 900px) {
-    .my_profile-bg {
-        width: 100%;
-        border-radius: 15px;
-    }
-  
-    .my_profile_user-img {
-        margin-left: 0px;
-        margin-top: -64px;
-    }
-  
-    .property_details-img {
-        width: 100%;
-        height: auto;
-    }
-  }
-
-
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 12px;
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background: #1e1e1e; /* Dark background */
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #444, #222); /* Darkish gradient */
-    border-radius: 10px;
-  }
-  
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(180deg, #666, #333); /* Lighter on hover */
-  }
-
-
-
-  .ant-form-item-label > label {
-    font-size: 12px;
-  }
-  
-  .ant-input, .ant-select-selector, .ant-picker {
-    font-size: 12px;
-    height: 30px;
-  }
-
-  
-  
+}
+ 
+ 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+ 
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  /* Dark background */
+}
+ 
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #222);
+  /* Darkish gradient */
+  border-radius: 10px;
+}
+ 
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #666, #333);
+  /* Lighter on hover */
+}
+ 
+ 
+ 
+.ant-form-item-label>label {
+  font-size: 12px;
+}
+ 
+.ant-input,
+.ant-select-selector,
+.ant-picker {
+  font-size: 12px;
+  height: 30px;
+}
+ 
+.css-5ecdx8-MuiTypography-root {
+  font-size: 10px !important;
+}
+ 
+.css-1q3h5bv-MuiSvgIcon-root {
+  flex-shrink: 1 !important;
+}
+ 
+* {
+  -ms-overflow-style: none !important;
+}
+ 
+::-webkit-scrollbar {
+  display: none !important;
+}
